@@ -1,0 +1,37 @@
+body {margin:0;}
+
+.header-icons{
+  width:40px;
+  display: block;
+  margin: 0 auto;
+}
+
+.icon-bar span {
+  font-size: 20px;
+
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: #EEEBD3;
+  overflow: auto;
+}
+
+.icon-bar a {
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  float: left;
+
+}
+
+.icon-bar a:hover {
+  background-color: #255957;
+}
+
+.active {
+  background-color: #437C90;
+}
